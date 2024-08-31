@@ -1,0 +1,29 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+    text-align: center
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background: #e48ad8af;
+    color: #85558bbe;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #e082c4;
+    text-decoration: none;
+}
