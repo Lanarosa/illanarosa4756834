@@ -7,10 +7,13 @@ body {
 
 /* Estilo para o cabeçalho */
 header {
-    background: #e48ad8af;
-    color: #85558bbe;
+    background: #e48ad8fa;
+    color: #a05ea8ef;
     padding: 40px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* Estilo para o menu de navegação */
@@ -24,6 +27,56 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e082c4;
+    color: #d628a2;
     text-decoration: none;
+}
+
+main {
+    margin: 210px 0;
+
+}
+
+
+/* Estilo para para tabela */
+main table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+main td {
+    padding: 50px;
+}
+
+/* Estilo para centralizar o titulo */
+main h2 {
+    text-align: center;
+}
+
+/* Estilo para o contêiner das imagens */
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilo para as imagens */
+.imagens img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+/* Estilo para a linha horizontal */
+hr {
+    border: 0;
+    height: 2px;
+    margin: 100px 0;
+}
+
+/* Estilo para a secao ficar abaixo do header */
+main section {
+    padding-top: 230px;
 }
